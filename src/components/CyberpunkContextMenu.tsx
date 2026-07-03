@@ -1,4 +1,4 @@
-import { MapPin, Maximize, X } from 'lucide-react';
+
 
 interface CyberpunkContextProps {
     x: number;

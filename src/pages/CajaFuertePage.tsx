@@ -19,7 +19,6 @@ const CajaFuertePage = () => {
   const [targetKnob1, setTargetKnob1] = useState(0);
   const [targetKnob2, setTargetKnob2] = useState(0);
   
-  const [holdTime, setHoldTime] = useState(0);
   const holdTimerRef = useRef<NodeJS.Timeout | null>(null);
   const requiredTimeRef = useRef(0.1);
   
@@ -83,20 +82,17 @@ const CajaFuertePage = () => {
 
     if (isAt99OrMore && gamePhase === 'playing') {
       if (!holdTimerRef.current) {
-        setHoldTime(0);
         requiredTimeRef.current = requiredTime; // Guardar el tiempo requerido
+        let holdTime = 0;
         holdTimerRef.current = setInterval(() => {
-          setHoldTime(prev => {
-            const newTime = prev + 0.1;
-            if (newTime >= requiredTimeRef.current) {
-              if (holdTimerRef.current) {
-                clearInterval(holdTimerRef.current);
-                holdTimerRef.current = null;
-              }
-              setGamePhase('won');
+          holdTime += 0.1;
+          if (holdTime >= requiredTimeRef.current) {
+            if (holdTimerRef.current) {
+              clearInterval(holdTimerRef.current);
+              holdTimerRef.current = null;
             }
-            return newTime;
-          });
+            setGamePhase('won');
+          }
         }, 100);
       }
     } else {
@@ -105,7 +101,6 @@ const CajaFuertePage = () => {
         clearInterval(holdTimerRef.current);
         holdTimerRef.current = null;
       }
-      setHoldTime(0);
     }
   }, [knob1Angle, knob2Angle, gamePhase, targetKnob1, targetKnob2]);
 
@@ -204,7 +199,6 @@ const CajaFuertePage = () => {
       clearInterval(holdTimerRef.current);
       holdTimerRef.current = null;
     }
-    setHoldTime(0);
     
     const target1 = Math.floor(Math.random() * 40) + 40;
     const target2 = 100 - target1;

@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import '../style/style.css';
 
@@ -12,7 +11,6 @@ interface Target {
 }
 
 const GanzuadoPage = () => {
-  const navigate = useNavigate();
   const totalLaps = 2; // 2 vueltas completas
 
   // Generar número aleatorio de objetivos (4-6)

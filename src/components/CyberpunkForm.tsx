@@ -59,8 +59,6 @@ const CyberpunkForm = ({ initialData, onSubmit, onCancel, isZone = false, isEdit
         }
     };
 
-    const currentColor = isZone ? zoneColor : (getCategoryColor(formData.type) || '#FFD700');
-
     // Preset colors for zones
     const presetColors = [
         '#6413dd', '#ff8800', '#ef4444', '#10b981',

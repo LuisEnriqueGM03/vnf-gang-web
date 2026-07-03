@@ -133,7 +133,7 @@ const HomePage = () => {
                 <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-white/20 transition-colors"></div>
 
                 <div className="relative z-10 flex justify-between items-start mb-4">
-                  <div className="text-xs text-gray-500 font-mono">ID_{item.id} // {item.sub}</div>
+                  <div className="text-xs text-gray-500 font-mono">ID_{item.id} {'//'} {item.sub}</div>
                   <div className={`text-[10px] uppercase tracking-wider flex items-center gap-1.5 ${item.statusColor}`}>
                     <div className={`w-1.5 h-1.5 rounded-full bg-current ${item.status === 'ONLINE' ? 'animate-pulse' : ''}`}></div>
                     {item.status}

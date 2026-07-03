@@ -5,7 +5,7 @@ import MapInfoPopup from '../components/MapInfoPopup';
 import MapWarningPopup from '../components/MapWarningPopup';
 import CyberpunkContextMenu from '../components/CyberpunkContextMenu';
 import CyberpunkForm from '../components/CyberpunkForm';
-import { getCategoryColor, getMarkerIconSvg, getSelectedMarkerIconSvg } from '../utils/mapIcons';
+import { getMarkerIconSvg, getSelectedMarkerIconSvg } from '../utils/mapIcons';
 import '../style/style.css';
 
 interface Category {
@@ -17,11 +17,9 @@ interface Category {
 }
 
 const MapaPage = () => {
-  const [showButtons, setShowButtons] = useState(false);
   const [showForm, setShowForm] = useState(false);
   const [editingPoint, setEditingPoint] = useState<any>(null);
   const [editingZone, setEditingZone] = useState<any>(null);
-  const [showCategoryDropdown, setShowCategoryDropdown] = useState(false);
 
   // Context Menu State
   const [showContextMenu, setShowContextMenu] = useState(false);
@@ -34,7 +32,7 @@ const MapaPage = () => {
   const [mapType, setMapType] = useState<string>('Atlas');
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [searchResults, setSearchResults] = useState<any[]>([]);
-  const [currentInfoWindow, setCurrentInfoWindow] = useState<any>(null);
+  const [currentInfoWindow] = useState<any>(null);
   const [showMapInfoPopup, setShowMapInfoPopup] = useState(false);
   const [showWarningPopup, setShowWarningPopup] = useState(true);
   const [locationPopupData, setLocationPopupData] = useState<{
@@ -58,11 +56,7 @@ const MapaPage = () => {
   const [circleCenter, setCircleCenter] = useState<{ lat: number; lng: number } | null>(null);
   const [circleRadius, setCircleRadius] = useState(500);
   const [tempCircle, setTempCircle] = useState<any>(null);
-  const [zoneName, setZoneName] = useState('');
-  const [zoneColor, setZoneColor] = useState('#FF0000');
   const [showZoneModal, setShowZoneModal] = useState(false);
-  const [sepas, setSepas] = useState<string[]>([]);
-  const [currentSepa, setCurrentSepa] = useState('');
   const zoneOverlaysRef = useRef<any[]>([]);
 
 
@@ -380,7 +374,6 @@ const MapaPage = () => {
     setCircleCenter(null);
     setCircleRadius(500);
     setTempCircle(null);
-    setShowButtons(false);
   };
 
   const handleCancelDrawingZone = () => {
@@ -417,18 +410,6 @@ const MapaPage = () => {
     setShowZoneModal(true);
   };
 
-  const handleAddSepa = () => {
-    if (currentSepa.trim()) {
-      setSepas([...sepas, currentSepa.trim()]);
-      setCurrentSepa('');
-    }
-  };
-
-  const handleRemoveSepa = (index: number) => {
-    const newSepas = sepas.filter((_, i) => i !== index);
-    setSepas(newSepas);
-  };
-
   const handleSaveZoneSubmit = async (data: any) => {
     const baseZone = {
       id: generateRandomId(),
@@ -460,9 +441,6 @@ const MapaPage = () => {
     setCircleCenter(null);
     setCircleRadius(500);
     setZoneDrawingMode(null);
-    setZoneName('');
-    setSepas([]);
-    setCurrentSepa('');
     setShowZoneModal(false);
   };
 
@@ -591,8 +569,6 @@ const MapaPage = () => {
 
       // Interceptar el evento location:clicked de Backbone
       const handleLocationClick = (location: any) => {
-        const isMobile = window.innerWidth <= 768;
-
         try {
           const title = location.get('title') || '';
           const notes = location.get('notes') || '';
@@ -650,12 +626,6 @@ const MapaPage = () => {
     };
   }, []);
 
-  const handleCreatePoint = () => {
-    // Mostrar formulario y ocultar botones
-    setShowButtons(false);
-    setShowForm(true);
-  };
-
   const handleMapTypeChange = (type: string) => {
     const map = (window as any).map;
     if (map) {
@@ -697,7 +667,6 @@ const MapaPage = () => {
     console.log('🔍 Click en resultado de búsqueda:', locationId);
     const locations = (window as any).locations;
     const google = (window as any).google;
-    const isMobile = window.innerWidth <= 768;
 
     if (locations && google) {
       let location = locations.get(locationId);
@@ -789,7 +758,6 @@ const MapaPage = () => {
     }
 
     // Cerrar botones y formulario
-    setShowButtons(false);
     setShowForm(false);
 
     // Resetear formulario
@@ -862,7 +830,6 @@ const MapaPage = () => {
       }
 
       // Cerrar botones y formulario
-      setShowButtons(false);
       setShowForm(false);
 
       setClickCoords(null);
