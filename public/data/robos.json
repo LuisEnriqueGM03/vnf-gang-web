@@ -1,0 +1,39 @@
+[
+    {
+      "id": "47382",
+      "title": "Peluqueria",
+      "descripcion": "Robo a una peluquería local. Operación rápida con bajo riesgo y recompensa moderada.",
+      "image": ""
+    },
+    {
+      "id": "92154",
+      "title": "Tatuajeria",
+      "descripcion": "Asalto a un estudio de tatuajes. Dinero en efectivo y equipamiento de valor disponible.",
+      "image": ""
+    },
+    {
+      "id": "65839",
+      "title": "Tienda",
+      "descripcion": "Atraco a tienda de conveniencia. Entrada y salida rápida, riesgo bajo a medio.",
+      "image": ""
+    },
+    {
+      "id": "31247",
+      "title": "Digital",
+      "descripcion": "Hackeo y robo digital. Requiere habilidades técnicas, alto riesgo pero gran recompensa.",
+      "image": ""
+    },
+    {
+      "id": "65839",
+      "title": "Basura",
+      "descripcion": "Robo a una basura. Operación rápida con bajo riesgo y recompensa moderada.",
+      "image": ""
+    },
+    {
+      "id": "33839",
+      "title": "Tienda Ropa",
+      "descripcion": "Robo a una tienda de ropa. Operación rápida con bajo riesgo y recompensa moderada.",
+      "image": ""
+    }
+  
+]

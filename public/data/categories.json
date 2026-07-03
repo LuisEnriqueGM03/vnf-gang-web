@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Desconocido",
+    "icon": "/icons/General/desconocido.png",
+    "type": "General",
+    "enabled": true
+  },
+  {
+    "name": "Puntos",
+    "icon": "/icons/General/punto.png",
+    "type": "General",
+    "enabled": true
+  },
+  {
+    "name": "Bandas",
+    "icon": "/icons/General/sede.png",
+    "type": "General",
+    "enabled": true
+  },
+  {
+    "name": "Nuestra Sede",
+    "icon": "/icons/General/sedeBloke12.png",
+    "type": "General",
+    "enabled": true
+  },
+  {
+    "name": "Npcs",
+    "icon": "/icons/General/npc.png",
+    "type": "General",
+    "enabled": true
+  },
+  {
+    "name": "Mesas Crafteo",
+    "icon": "/icons/General/mesas.png",
+    "type": "General",
+    "enabled": true
+  },
+  {
+    "name": "Robos",
+    "icon": "/icons/General/runs.png",
+    "type": "General",
+    "enabled": true
+  },
+  {
+    "name": "Tiendas de ropa",
+    "icon": "/icons/General/runs.png",
+    "type": "Robos",
+    "parent": "Robos",
+    "enabled": true
+  },
+  {
+    "name": "Cajeros",
+    "icon": "/icons/General/runs.png",
+    "type": "Robos",
+    "parent": "Robos",
+    "enabled": true
+  },
+  {
+    "name": "Chatarrerías",
+    "icon": "/icons/General/runs.png",
+    "type": "Robos",
+    "parent": "Robos",
+    "enabled": true
+  },
+  {
+    "name": "Talleres",
+    "icon": "/icons/General/runs.png",
+    "type": "Robos",
+    "parent": "Robos",
+    "enabled": true
+  },
+  {
+    "name": "Tumbas",
+    "icon": "/icons/General/runs.png",
+    "type": "Robos",
+    "parent": "Robos",
+    "enabled": true
+  },
+  {
+    "name": "Licorerías",
+    "icon": "/icons/General/runs.png",
+    "type": "Robos",
+    "parent": "Robos",
+    "enabled": true
+  },
+  {
+    "name": "Badulaques",
+    "icon": "/icons/General/runs.png",
+    "type": "Robos",
+    "parent": "Robos",
+    "enabled": true
+  },
+  {
+    "name": "Almacén Pequeño",
+    "icon": "/icons/General/runs.png",
+    "type": "Robos",
+    "parent": "Robos",
+    "enabled": true
+  },
+  {
+    "name": "Controlar Zona",
+    "icon": "/icons/General/runs.png",
+    "type": "General",
+    "enabled": true
+  },
+  {
+    "name": "PDB",
+    "icon": "/icons/General/runs.png",
+    "type": "General",
+    "enabled": true
+  },
+  {
+    "name": "Zonas",
+    "icon": "/icons/General/runs.png",
+    "type": "General",
+    "enabled": true
+  }
+]

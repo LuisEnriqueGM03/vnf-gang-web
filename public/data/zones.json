@@ -1,0 +1,24 @@
+[
+  {
+    "id": "mx4sa",
+    "name": "zona de plantacion chilliad",
+    "color": "#10b981",
+    "strains": [],
+    "center": {
+      "lat": 80.65280463627431,
+      "lng": -125.96481553556407
+    },
+    "radius": 32200
+  },
+  {
+    "id": "4fs9l",
+    "name": "zona de plantacion sandy",
+    "color": "#10b981",
+    "strains": [],
+    "center": {
+      "lat": 79.9157416570541,
+      "lng": -131.37925070082923
+    },
+    "radius": 28400
+  }
+]

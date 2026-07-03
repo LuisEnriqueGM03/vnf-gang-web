@@ -1,0 +1,382 @@
+[
+  {
+    "id": "22li7",
+    "type": "Nuestra Sede",
+    "title": "VARRIO NUEVA FRONTERA",
+    "notes": "",
+    "order": 33,
+    "lat": 63.984948,
+    "lng": -113.360537,
+    "image": ""
+  },
+  {
+    "id": "r2lm0",
+    "type": "Mesas Crafteo",
+    "title": "Mesa de crafteo",
+    "notes": "",
+    "order": 34,
+    "lat": 76.761238,
+    "lng": -101.992792,
+    "image": ""
+  },
+  {
+    "id": "1yo7l",
+    "type": "Mesas Crafteo",
+    "title": "mesa de desguaze",
+    "notes": "",
+    "order": 34,
+    "lat": 78.889781,
+    "lng": -115.930355,
+    "image": ""
+  },
+  {
+    "id": "0peoz",
+    "type": "Tiendas de ropa",
+    "title": "TIENDA DE ROPA GREAT OCEAN",
+    "notes": "",
+    "order": 35,
+    "lat": 72.963694,
+    "lng": -155.384445,
+    "image": ""
+  },
+  {
+    "id": "wnshl",
+    "type": "Tiendas de ropa",
+    "title": "TIENDA DE ROPA RUTA 68",
+    "notes": "",
+    "order": 36,
+    "lat": 77.061405,
+    "lng": -135.371006,
+    "image": ""
+  },
+  {
+    "id": "2q90c",
+    "type": "Tiendas de ropa",
+    "title": "TIENDA DE ROPA GRAPPESSED",
+    "notes": "",
+    "order": 36,
+    "lat": 80.979015,
+    "lng": -108.20726,
+    "image": ""
+  },
+  {
+    "id": "q69vi",
+    "type": "Cajeros",
+    "title": "CAJERO",
+    "notes": "",
+    "order": 37,
+    "lat": 64.897178,
+    "lng": -121.882947,
+    "image": ""
+  },
+  {
+    "id": "psr78",
+    "type": "Cajeros",
+    "title": "CAJERO",
+    "notes": "",
+    "order": 37,
+    "lat": 68.558736,
+    "lng": -144.791728,
+    "image": ""
+  },
+  {
+    "id": "ujcz6",
+    "type": "Cajeros",
+    "title": "CAJERO",
+    "notes": "",
+    "order": 37,
+    "lat": 76.807073,
+    "lng": -99.67201,
+    "image": ""
+  },
+  {
+    "id": "fldvl",
+    "type": "Licorerías",
+    "title": "Licoreria",
+    "notes": "",
+    "order": 38,
+    "lat": 66.431353,
+    "lng": -136.201816,
+    "image": ""
+  },
+  {
+    "id": "4x22k",
+    "type": "Licorerías",
+    "title": "licoreria",
+    "notes": "",
+    "order": 38,
+    "lat": 67.875659,
+    "lng": -138.072288,
+    "image": ""
+  },
+  {
+    "id": "856od",
+    "type": "Licorerías",
+    "title": "licorerias",
+    "notes": "",
+    "order": 38,
+    "lat": 71.161937,
+    "lng": -153.3828,
+    "image": ""
+  },
+  {
+    "id": "s5yx8",
+    "type": "Npcs",
+    "title": "Vendedor de palas",
+    "notes": "",
+    "order": 38,
+    "lat": 70.73542,
+    "lng": -133.808264,
+    "image": ""
+  },
+  {
+    "id": "0r8hp",
+    "type": "Npcs",
+    "title": "vendedor ganzuas",
+    "notes": "",
+    "order": 38,
+    "lat": 83.202976,
+    "lng": -125.470852,
+    "image": ""
+  },
+  {
+    "id": "6skb1",
+    "type": "Npcs",
+    "title": "comprador de cosas",
+    "notes": "Compra ropa,zapatos y demas",
+    "order": 38,
+    "lat": 67.03188,
+    "lng": -120.104355,
+    "image": ""
+  },
+  {
+    "id": "4u367",
+    "type": "Npcs",
+    "title": "vendedor de ganzuas 2",
+    "notes": "",
+    "order": 38,
+    "lat": 68.247851,
+    "lng": -139.785948,
+    "image": ""
+  },
+  {
+    "id": "2rgtv",
+    "type": "Npcs",
+    "title": "vendedor de bates 1",
+    "notes": "",
+    "order": 38,
+    "lat": 60.522101,
+    "lng": -115.048485,
+    "image": ""
+  },
+  {
+    "id": "22ya2",
+    "type": "Controlar Zona",
+    "title": "Zona de venta de armas blancas",
+    "notes": "",
+    "order": 39,
+    "lat": 83.511609,
+    "lng": -121.876276,
+    "image": ""
+  },
+  {
+    "id": "kcjrd",
+    "type": "Controlar Zona",
+    "title": "zona de mercado negro",
+    "notes": "",
+    "order": 39,
+    "lat": 76.707422,
+    "lng": -127.43,
+    "image": ""
+  },
+  {
+    "id": "r18eh",
+    "type": "Puntos",
+    "title": "venta de grafitis",
+    "notes": "",
+    "order": 39,
+    "lat": 64.239115,
+    "lng": -135.543308,
+    "image": ""
+  },
+  {
+    "id": "v2w4c",
+    "type": "Npcs",
+    "title": "compra de joyas y cosas valiosas",
+    "notes": "",
+    "order": 39,
+    "lat": 75.973256,
+    "lng": -122.944071,
+    "image": ""
+  },
+  {
+    "id": "axvfe",
+    "type": "Npcs",
+    "title": "compra de chatarra por dinero",
+    "notes": "",
+    "order": 39,
+    "lat": 63.004334,
+    "lng": -128.796205,
+    "image": ""
+  },
+  {
+    "id": "v37cx",
+    "type": "Npcs",
+    "title": "medico ilegal",
+    "notes": "pin de puerta 2882",
+    "order": 39,
+    "lat": 62.771463,
+    "lng": -130.363097,
+    "image": ""
+  },
+  {
+    "id": "7eapl",
+    "type": "Bandas",
+    "title": "bloods rojos",
+    "notes": "",
+    "order": 40,
+    "lat": 63.831219,
+    "lng": -120.616471,
+    "image": ""
+  },
+  {
+    "id": "lyewh",
+    "type": "Bandas",
+    "title": "ballas",
+    "notes": "",
+    "order": 40,
+    "lat": 61.984624,
+    "lng": -123.521876,
+    "image": ""
+  },
+  {
+    "id": "0gw4l",
+    "type": "Bandas",
+    "title": "cuervoz",
+    "notes": "",
+    "order": 40,
+    "lat": 64.22172,
+    "lng": -134.310931,
+    "image": ""
+  },
+  {
+    "id": "6vq73",
+    "type": "Bandas",
+    "title": "rositas",
+    "notes": "",
+    "order": 40,
+    "lat": 67.972014,
+    "lng": -141.137787,
+    "image": ""
+  },
+  {
+    "id": "941zh",
+    "type": "Bandas",
+    "title": "cream",
+    "notes": "",
+    "order": 40,
+    "lat": 67.614876,
+    "lng": -111.316844,
+    "image": ""
+  },
+  {
+    "id": "i8d1y",
+    "type": "Bandas",
+    "title": "the lost mc",
+    "notes": "",
+    "order": 40,
+    "lat": 79.090535,
+    "lng": -124.026544,
+    "image": ""
+  },
+  {
+    "id": "u43vs",
+    "type": "Bandas",
+    "title": "huerfanos",
+    "notes": "",
+    "order": 40,
+    "lat": 78.810815,
+    "lng": -109.43261,
+    "image": ""
+  },
+  {
+    "id": "1wwh3",
+    "type": "Bandas",
+    "title": "itp",
+    "notes": "",
+    "order": 40,
+    "lat": 78.240486,
+    "lng": -98.973561,
+    "image": ""
+  },
+  {
+    "id": "rm8vb",
+    "type": "Bandas",
+    "title": "mafia",
+    "notes": "",
+    "order": 40,
+    "lat": 73.065413,
+    "lng": -110.551128,
+    "image": ""
+  },
+  {
+    "id": "bysv5",
+    "type": "Bandas",
+    "title": "blackjack",
+    "notes": "",
+    "order": 40,
+    "lat": 70.427932,
+    "lng": -120.057425,
+    "image": ""
+  },
+  {
+    "id": "emdct",
+    "type": "Bandas",
+    "title": "go postal",
+    "notes": "",
+    "order": 40,
+    "lat": 69.843402,
+    "lng": -123.853609,
+    "image": ""
+  },
+  {
+    "id": "ikm1k",
+    "type": "Talleres",
+    "title": "robo taller",
+    "notes": "",
+    "order": 40,
+    "lat": 61.7465,
+    "lng": -135.756477,
+    "image": ""
+  },
+  {
+    "id": "qg5d0",
+    "type": "Chatarrerías",
+    "title": "robo chatarreria",
+    "notes": "",
+    "order": 40,
+    "lat": 64.735815,
+    "lng": -119.850479,
+    "image": ""
+  },
+  {
+    "id": "nk2bx",
+    "type": "Licorerías",
+    "title": "LICORERIA",
+    "notes": "",
+    "order": 41,
+    "lat": 65.946922,
+    "lng": -113.511858,
+    "image": ""
+  },
+  {
+    "id": "yuuiz",
+    "type": "Almacén Pequeño",
+    "title": "ALMACEN DEBAJO DEL PUENTE",
+    "notes": "",
+    "order": 42,
+    "lat": 65.256336,
+    "lng": -117.232067,
+    "image": ""
+  }
+]

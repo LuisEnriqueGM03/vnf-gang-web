@@ -1,0 +1,20 @@
+export const URLS = {
+    HOMEPAGE: '/home',
+    MAPA: '/mapa',
+    TIENDAS: '/tiendas',
+    PAWN_SHOP: '/pawnshop',
+    MERCACHIFLE: '/mercachifle',
+    ROBOS: '/robos',
+    MINIJUEGOS: '/minijuegos',
+    CAJA_REGISTRADORA: '/caja-registradora',
+    BUSCAMINAS: '/buscaminas',
+    DESCRUZAR_CABLES: '/descruzar-cables',
+    KEY_FAST: '/key-fast',
+    KEY_SLOW: '/key-slow',
+    GANZUADO: '/ganzuado',
+    CODIGO_ACCESO: '/codigo-acceso',
+    MEMORIZAR: '/memorizar',
+    CAJA_FUERTE: '/caja-fuerte',
+    SECURE: '/secure',
+    BRUTEFORCE: '/bruteforce'
+};
