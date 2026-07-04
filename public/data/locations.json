@@ -378,5 +378,35 @@
     "lat": 65.256336,
     "lng": -117.232067,
     "image": ""
+  },
+  {
+    "id": "compra_sandwitch_43",
+    "type": "Npcs",
+    "title": "compra de sandwitch a alcohol",
+    "notes": "",
+    "order": 43,
+    "lat": 65.72234,
+    "lng": -125.126371,
+    "image": ""
+  },
+  {
+    "id": "compra_alcohol_43",
+    "type": "Npcs",
+    "title": "compra de alcohol a porro",
+    "notes": "",
+    "order": 43,
+    "lat": 65.839518,
+    "lng": -123.181671,
+    "image": ""
+  },
+  {
+    "id": "cajero_43",
+    "type": "Cajeros",
+    "title": "cajero",
+    "notes": "",
+    "order": 43,
+    "lat": 79.358968,
+    "lng": -106.019659,
+    "image": ""
   }
 ]
